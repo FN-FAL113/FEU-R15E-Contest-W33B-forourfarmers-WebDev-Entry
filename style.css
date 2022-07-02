@@ -1,0 +1,286 @@
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+h3>a {
+    color: whitesmoke;
+}
+
+h3>a:hover {
+    color:#ffd98d;
+}
+
+a>img {
+    width: 100px;
+}
+
+/* Classes */
+
+.maxwidth-7 {
+    max-width: 700px;
+}
+.maxwidth-6 {
+    max-width: 600px;
+}
+.maxwidth-5 {
+    max-width: 500px;
+}
+.minwidth-2 {
+    min-width: 200px;
+}
+.minwidth-3 {
+    min-width: 300px;
+}
+.minwidth-4 {
+    min-width: 400px;
+}
+.minwidth-none {
+    min-width: unset;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #41953c;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.nav-link:hover {
+    color: #ffd98d;
+}
+
+.btn-outline-primary {
+    color: #ffd98d;
+    border-color: #ffd98d;
+}
+
+.btn-outline-primary:hover {
+    color: darkslategray;
+    background-color: #ffd98d;
+    border-color: #ffd98d;
+}
+
+.py-8 {
+    padding: 24rem 0;
+}
+.pt-7 {
+    padding: 12rem 0 0 0;
+}
+.pb-7 {
+    padding: 0 0 12rem 0;
+}
+.mt-6 {
+    margin: 6rem 0 0 0;
+}
+.mt-7 {
+    margin: 12rem 0 0 0;
+}
+.mb-7 {
+    margin-bottom: 12rem;
+}
+.my-6 {
+    margin: 6rem 0 6rem 0;
+}
+.my-7 {
+    margin: 12rem 0 12rem 0;
+}
+.m-7 {
+    margin: 12rem;
+}
+
+.container-margin {
+    margin: 200px 20%;
+}
+
+.nav-item{
+    margin: auto;
+}
+
+.bg-brown {
+    background-color: #83631E;
+}
+.bg-green {
+    background-color: #41953c;
+}
+.bg-orange {
+    background-color: #ec8729;
+}
+.bg-gray {
+    background-color: darkslategray;
+    
+}
+.bg-white {
+    background-color: whitesmoke;
+}
+.bg-none {
+    background-color: unset;
+}
+.text-gray {
+    color: darkslategray;
+}
+.text-orange {
+    color: #ec8729;
+}
+.text-brown {
+    color: #83631e;
+}
+.border-none {
+    border: none;
+}
+.align-top {
+    align-items: baseline;
+}
+
+.h-5 {
+    height: 500px;
+    justify-items: center;
+}
+
+.resize-1{
+    width: 80px;
+}
+.resize-2 {
+    width: 200px;
+}
+.resize-3 {
+    width: 300px;
+}
+.resize-4{
+    width: 400px;
+    min-width: 400px;
+}
+.resize-8 {
+    width: 800px;
+}
+.resizeh-1 {
+    height: 100px;
+}
+.resizeh-2 {
+    height: 200px;
+}
+.resizeh-4{
+    height: 400px;
+    min-height: 400px;
+}
+
+
+.accordion-body{
+    font-size: 20px;
+}
+
+.horizontal-scroll {
+    overflow-x: scroll;
+}
+.horizontal-scroll::-webkit-scrollbar{
+    display: none;
+}
+.drag-scroll {
+    cursor: url(./assets/dragCursor.png) 46 46, grab;
+}
+.text-shadow {
+    text-shadow: 0 0 .9rem rgba(0, 0, 0, .7);
+}
+
+.cover-section {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    background-image: url(./assets/270266258_10227827011839587_7484180106652352385_n.jpeg);
+    background-origin: center;
+    /* background-size: auto; */
+    /* background-repeat: no-repeat; */
+
+}
+  
+.cover-container {
+    max-width: 42em;
+}
+
+/* Ids  */
+
+#featuredimage {
+    /* background-image: url(/assets/270058605_10227827012039592_3805387145282306421_n.jpeg); */
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    width: 100%;
+
+}
+
+#row2 {
+    direction: rtl;
+}
+
+#contact-bg {
+    overflow: hidden;
+}
+
+#contact-bg>img {
+    width: 100vw;
+    min-width: 768px;
+
+    -webkit-mask-image: linear-gradient(
+        to bottom, 
+        rgba(64,64,64,0) 0%, 
+        rgba(64,64,64,1) 20%, 
+        rgba(64,64,64,1) 80%, 
+        rgba(64,64,64,0) 100%
+    );
+    mask-image: linear-gradient(
+        to bottom, 
+        rgba(64,64,64,0) 0%, 
+        rgba(64,64,64,1) 20%, 
+        rgba(64,64,64,1) 80%, 
+        rgba(64,64,64,0) 100%
+    );
+}
+
+.img-turbine{
+    width: 100%;
+}
+
+.social-icons a {
+    font-size: 6rem;
+    padding: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.social-icons a:hover{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: #E8B625;
+}
+
+
+/* Theme classes */
+.slateGray{
+    background-color: darkslategray; 
+    margin-top: -1px; 
+    padding-top: 1px;
+}
+
+/* Dark Mode */
+.madison{
+    background-color: #2E4053; 
+    margin-top: -1px; 
+    padding-top: 1px;
+}
+
+.navBarDark{
+    background-color: #212F3D;
+}
+
+.textMadison{
+    color: #2E4053;
+}
+
+
+/* Queries */
+
+ @media (max-width: 456px) {
+    .carousel-caption {
+        font-size: small;
+    }
+}
